@@ -24,25 +24,25 @@ mysql> INSTALL PLUGIN zundoko SONAME 'ha_zundoko.so';
 
 ```
 mysql> CREATE TABLE t1 (val varchar(32)) Engine= zundoko;
-mysql> SELECT * FROM t1;
+mysql56> SELECT * FROM t1;
 +--------------------+
 | val                |
 +--------------------+
-| ズン               |
-| ドコ               |
 | ドコ               |
 | ズン               |
-| ドコ               |
-| ドコ               |
 | ズン               |
 | ドコ               |
 | ズン               |
-| ドコ               |
-| ドコ               |
-| ドコ               |
-| ドコ               |
+| ズン               |
 | ドコ               |
 | ズン               |
+| ドコ               |
+| ズン               |
+| ズン               |
+| ズン               |
+| ズン               |
+| ズン               |
+| ドコ               |
 | キ・ヨ・シ！       |
 +--------------------+
 16 rows in set (0.00 sec)

@@ -23,7 +23,7 @@
 #define KIYOSHI "キ・ヨ・シ！"
 uint pos;
 int zundoko_buffer= 0;
-char zundoko[2][8]= {"ズン", "ドコ"};
+char zundoko[2][8]= {"ドコ", "ズン"};
 int next_is_eof= 0;
 
 static handler *zundoko_create_handler(handlerton *hton,
